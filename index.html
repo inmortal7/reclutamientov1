@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quisqueya RP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Reclutamiento Quisqueya RP</h1>
+    </header>
+    <div class="container">
+        <form id="recruitmentForm" action="https://formspree.io/f/xanwokbq" method="POST">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <div class="error" id="nameError"></div>
+            </div>
+            <div id="responseMessage" class="response-message"></div>
+
+            <div class="form-group">
+                <label for="email">Nombre IC:</label>
+                <input type="email" id="email" name="email" required>
+                <div class="error" id="emailError"></div>
+            </div>
+            <div class="form-group">
+                <label for="discord">Usuario de Discord:</label>
+                <input type="text" id="discord" name="discord" required>
+                <div class="error" id="discordError"></div>
+            </div>
+            <div class="form-group">
+                <label for="safeZone">¿Qué es una Zona Segura?</label>
+                <textarea id="safeZone" name="safeZone" required></textarea>
+                <div class="error" id="safeZoneError"></div>
+            </div>
+            <div class="form-group">
+                <label for="curfew">¿Qué no se puede hacer durante el anuncio de TOQUE DE QUEDA y/o Reinicios del servidor?</label>
+                <textarea id="curfew" name="curfew" required></textarea>
+                <div class="error" id="curfewError"></div>
+            </div>
+            <div class="form-group">
+                <label for="ooc">¿Qué es el chat OOC dentro del Servidor?</label>
+                <textarea id="ooc" name="ooc" required></textarea>
+                <div class="error" id="oocError"></div>
+            </div>
+            <div class="form-group">
+                <label for="bug">¿Qué es un BUG y qué debes hacer si encuentras uno?</label>
+                <textarea id="bug" name="bug" required></textarea>
+                <div class="error" id="bugError"></div>
+            </div>
+            <div class="form-group">
+                <label for="rk">¿Qué es RevengeKill (RK)?</label>
+                <textarea id="rk" name="rk" required></textarea>
+                <div class="error" id="rkError"></div>
+            </div>
+            <div class="form-group">
+                <label for="me">¿Qué es un /Me y cómo se implementaría en rol?</label>
+                <textarea id="me" name="me" required></textarea>
+                <div class="error" id="meError"></div>
+            </div>
+            <div class="form-group">
+                <label for="evasion">¿Qué es Evasión de Rol?</label>
+                <textarea id="evasion" name="evasion" required></textarea>
+                <div class="error" id="evasionError"></div>
+            </div>
+            <div class="form-group">
+                <label for="environment">¿Qué es un Entorno?</label>
+                <textarea id="environment" name="environment" required></textarea>
+                <div class="error" id="environmentError"></div>
+            </div>
+            <div class="form-group">
+                <label for="fairplay">¿Qué es Mal Fair-Play?</label>
+                <textarea id="fairplay" name="fairplay" required></textarea>
+                <div class="error" id="fairplayError"></div>
+            </div>
+            <div class="form-group">
+                <label for="socials">Déjanos todas tus redes sociales:</label>
+                <textarea id="socials" name="socials" required></textarea>
+                <div class="error" id="socialsError"></div>
+            </div>
+            <div class="form-group">
+                <label for="force">¿Qué es Forzar Rol?</label>
+                <textarea id="force" name="force" required></textarea>
+                <div class="error" id="forceError"></div>
+            </div>
+            <div class="form-group">
+                <label for="pk">¿Qué es Muerte de Jugador (PK)?</label>
+                <textarea id="pk" name="pk" required></textarea>
+                <div class="error" id="pkError"></div>
+            </div>
+            <div class="form-group">
+                <label for="vdm">¿Qué es Car Kill (CK) o VDM?</label>
+                <textarea id="vdm" name="vdm" required></textarea>
+                <div class="error" id="vdmError"></div>
+            </div>
+            <div class="form-group">
+                <label for="ck">¿Qué es Character Kill (CK)?</label>
+                <textarea id="ck" name="ck" required></textarea>
+                <div class="error" id="ckError"></div>
+            </div>
+            <div class="form-group">
+                <label for="mg">¿Qué es Metagaming (MG)?</label>
+                <textarea id="mg" name="mg" required></textarea>
+                <div class="error" id="mgError"></div>
+            </div>
+            <div class="form-group">
+                <label for="aggressive">¿Qué es un Rol Agresivo?</label>
+                <textarea id="aggressive" name="aggressive" required></textarea>
+                <div class="error" id="aggressiveError"></div>
+            </div>
+            <div class="form-group">
+                <label for="do">¿Qué es un /Do y cómo se implementaría en rol?</label>
+                <textarea id="do" name="do" required></textarea>
+                <div class="error" id="doError"></div>
+            </div>
+            <div class="form-group">
+                <label for="dm">¿Qué es DeathMatch (DM)?</label>
+                <textarea id="dm" name="dm" required></textarea>
+                <div class="error" id="dmError"></div>
+            </div>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </div>
+    <footer>
+        <div class="social-links">
+            <a href="https://youtube.com/" target="_blank">YouTube</a>
+            <a href="https://discord.com/" target="_blank">Discord</a>
+        </div>
+        <p>&copy; 2024 inmortal</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
